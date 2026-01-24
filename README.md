@@ -49,3 +49,6 @@ City analysis - Market targeting
 3. Customers with higher basket sizes present strong add-on opportunities.
 4. Certain cities show higher average order value, indicating premium demand.
 5. High browsing behaviour does not always convert into high spend.
+
+- TABLEAU DASHBOARD
+https://public.tableau.com/views/E-CommerceCustomerBehaviorSalesAnalysis/CustomerRFMSegmentationRevenueInsightsRetailAnalytics?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
