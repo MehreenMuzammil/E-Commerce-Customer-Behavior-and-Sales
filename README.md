@@ -28,14 +28,14 @@ This project is a **customer behaviour and sales analysis** of an e-commerce pla
 ```
 E-Commerce-Customer-Behavior-and-Sales/
 │
-├── ecommerce_customer_behavior_dataset.ipynb   ← Data cleaning & feature engineering
+├── ecommerce_customer_behavior_dataset.ipynb   - Data cleaning & feature engineering
 │
-├── ecommerce_customer_behavior_dataset_v2.csv  ← Original raw dataset
-├── cleaned_transaction_data.csv                ← Cleaned transaction-level data
-├── customer_summary_data.csv                   ← Aggregated customer-level data
+├── ecommerce_customer_behavior_dataset_v2.csv  - Original raw dataset
+├── cleaned_transaction_data.csv                - Cleaned transaction-level data
+├── customer_summary_data.csv                   - Aggregated customer-level data
 │
-├── ecommerce_customer_behaviour_and_sales.sql  ← All SQL queries
-├── Customer RFM Segmentation & Revenue Insights (Retail Analytics).jpg  ← Dashboard screenshot
+├── ecommerce_customer_behaviour_and_sales.sql  - All SQL queries
+├── Customer RFM Segmentation & Revenue Insights (Retail Analytics).jpg  - Dashboard screenshot
 └── README.md
 ```
 
@@ -73,17 +73,17 @@ E-Commerce-Customer-Behavior-and-Sales/
 ```
 Phase 1 — Data Cleaning (Python)
     └── Raw CSV → Validated, cleaned transaction dataset
-            ↓
+            
 Phase 2 — Feature Engineering (Python)
     └── Added basket_size, order_value columns
     └── Built customer_summary aggregation table
-            ↓
+            
 Phase 3 — SQL Analysis (PostgreSQL / pgAdmin 4)
     └── 11 queries across revenue, segmentation, behaviour & geography
-            ↓
+            
 Phase 4 — Visualisation (Tableau Public)
     └── Interactive RFM segmentation & revenue insights dashboard
-            ↓
+            
 Phase 5 — Storytelling & Documentation
     └── Executive insights, recommendations, GitHub README
 ```
