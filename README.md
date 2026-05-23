@@ -1,7 +1,3 @@
-# E-Commerce Customer Behavior & Sales Analysis
-
-![Dashboard Preview](Ecommerce%20customer%20and%20sales%20analytics.jpg)
-
 ## Project Overview
 
 This project is a **customer behaviour and sales analysis** of an e-commerce platform with 5,000 customers and 17,049 transactions. Using a multi-tool analytics pipeline, I explore what drives revenue, how customers segment by value and behaviour, where upsell opportunities exist, and what separates high-value loyal customers from one-time buyers.
@@ -10,7 +6,7 @@ This project is a **customer behaviour and sales analysis** of an e-commerce pla
 
 ---
 
-## Live Dashboard
+##  Tableau Dashboard
 
 **[View Interactive Tableau Dashboard](https://public.tableau.com/views/E-CommerceCustomerBehaviorSalesAnalysis/CustomerRFMSegmentationRevenueInsightsRetailAnalytics?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
 
@@ -32,15 +28,14 @@ This project is a **customer behaviour and sales analysis** of an e-commerce pla
 ```
 E-Commerce-Customer-Behavior-and-Sales/
 │
-├── 📓 ecommerce_customer_behavior_dataset.ipynb   ← Data cleaning & feature engineering
+├── ecommerce_customer_behavior_dataset.ipynb   ← Data cleaning & feature engineering
 │
-├── 📊 ecommerce_customer_behavior_dataset_v2.csv  ← Original raw dataset
-├── 📊 cleaned_transaction_data.csv                ← Cleaned transaction-level data
-├── 📊 customer_summary_data.csv                   ← Aggregated customer-level data
+├── ecommerce_customer_behavior_dataset_v2.csv  ← Original raw dataset
+├── cleaned_transaction_data.csv                ← Cleaned transaction-level data
+├── customer_summary_data.csv                   ← Aggregated customer-level data
 │
-├── 📄 ecommerce_customer_behaviour_and_sales.sql  ← All SQL queries
-├── 🖼️ Ecommerce customer and sales analytics.jpg  ← Dashboard screenshot
-├── requirements.txt                               ← Python dependencies
+├── ecommerce_customer_behaviour_and_sales.sql  ← All SQL queries
+├── Customer RFM Segmentation & Revenue Insights (Retail Analytics).jpg  ← Dashboard screenshot
 └── README.md
 ```
 
